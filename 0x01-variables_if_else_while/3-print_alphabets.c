@@ -14,6 +14,8 @@ int main(void)
 
 	for (i = 97; i < 123; i++)
 		putchar(i);
-	putchar('\n');
+	for (i = 65; i < 91; i++)
+		putchar(i);
+	putchar('$');
 	return (0);
 }
